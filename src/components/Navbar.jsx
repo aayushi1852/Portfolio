@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./navbar.css";
+import "./navfg.css";
+import resume from"../img/resume.pdf";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
               <NavLink className="nav-link h4 text-dark" to={"/skill"}>Skills</NavLink>
             </li>
           </ul>
-          <button className="btn btn-primary">Resume</button>
+          <a href={resume} target={'_blank'} className="resume__btn btn btn-primary">Resume</a>
         </div>
       </div>
     </nav>

@@ -1,0 +1,42 @@
+.app__navbar {
+    width: 100%;
+    font-family: 'Eczar', serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    z-index: 2;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+.resume__btn {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    cursor: pointer;
+    margin-right: 35px !important;
+    outline: none;
+    padding: 5px 25px;
+    transition: all .3s ease-in-out;
+}
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    cursor: pointer;
+   
+    outline: none;
+    padding: 5px 25px;
+    transition: all .3s ease-in-out;
+
+}
+
+
+
