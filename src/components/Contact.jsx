@@ -6,11 +6,11 @@ function Contact() {
     const [message, setMessage] = useState();
 
     return (
-        <section className="container-fluid pt-5">
+        <section className="container-fluid pt-5 page" id='contact'>
            
             <div className="container pt-5 mt-5">
             <h1 className='text-center'>Contact Me</h1>
-                <form id="contactForm" className='col-md-5 col-12 mx-auto'>
+                <form id="contactForm" className='col-md-6 col-12 mx-auto'>
                     <div className="my-5 d-flex justify-content-between">
                         <div className="card">
             

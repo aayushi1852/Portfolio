@@ -3,6 +3,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer"
 import { Switch, Route } from "react-router-dom";
 import Skill from "./components/Skill";
 import './App.css';
@@ -11,17 +12,17 @@ function App() {
     return (
         <>
             <Navbar />
-            <Switch>
-                <Route exact path='/' >
-                    <Home bg={'white'} />
 
-                    <About bg={'grey'} />
-                    
-                    <Skill bg={'white'} />
-                  
-                    <Projects bg={'grey'} />
-                   
-                    <Contact bg={'white'} />
+
+            <Switch>
+                {/* <Route exact path='/' component={Home} /> */}
+                <Route exact path='/portfolio/'>
+                    <Home />
+                    <About />
+                    <Skill />
+                    <Projects />
+                    <Contact />
+                    <Footer />
                 </Route>
                 {/* <Route exact path='/about' component={About}></Route>
                 <Route exact path='/contact' component={Contact}></Route>

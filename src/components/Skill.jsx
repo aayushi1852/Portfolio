@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skill() {
     return (
-        <section className="container-fluid pt-5">
+        <section className="container-fluid py-5 page" id='skill'>
             <div className="container pt-5 mt-5">
                 <div id="MySkill">
                     <h1 class="row bg-light p-2 rounded">TECHNICAL SKILLS:</h1>
