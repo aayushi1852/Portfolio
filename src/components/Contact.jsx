@@ -8,19 +8,20 @@ function Contact() {
     return (
         <section className="container-fluid pt-5 page" id='contact'>
            
-            <div className="container pt-5 mt-5">
+            <div className="container pt-5 mt-4">
             <h1 className='text-center'>Contact Me</h1>
+            < hr/>
                 <form id="contactForm" className='col-md-6 col-12 mx-auto'>
                     <div className="my-5 d-flex justify-content-between">
                         <div className="card">
             
                             <div className="card-body d-flex">
                                 <img src="https://img.icons8.com/color/48/000000/circled-envelope.png" />
-                                <h6 className='mr-3 my-auto'>aayushishah2972@gmail.com</h6>
+                                <h6 className='mr-3 my-auto'>aayushi22@gmail.com</h6>
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-body d-flex" style={{ width: '197.31px', height:'70px'}}>
+                            <div className="card-body d-flex" style={{ width: '165.8px', height:'70px'}}>
                                 <img style={{ height: '30px', width: '30px' ,margin:'8px'}} src="https://img.icons8.com/ultraviolet/38/000000/phone.png" />
                                 <h6 className='mr-3 my-auto'>+(1)437-249-7766</h6>
                             </div>

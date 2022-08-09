@@ -13,11 +13,14 @@ const Navbar = () => {
         </button> */}
         <div className="">
           <ul className="navbar-nav mx-auto d-inline">
-              <a className="mx-2 h4 text-dark" href="#home">Home</a>
-              <a className="mx-2 h4 text-dark" href="#about">About</a>
-              <a className="mx-2 h4 text-dark" href="#contact">Contact</a>
-              <a className="mx-2 h4 text-dark" href="#project">Projects</a>
-              <a className="mx-2 h4 text-dark" href="#skill">Skills</a>          </ul>
+            <a className="mx-md-4 mx-2 h4 text-dark linkhover" href="#home">Home</a>
+            <a className="mx-md-4 mx-2 h4 text-dark linkhover" href="#about">About</a>
+            <a className="mx-md-4 mx-2 h4 text-dark linkhover" href="#skill">Skills</a>
+            
+            <a className="mx-md-4 mx-2 h4 text-dark linkhover" href="#project">Projects</a>
+          
+            <a className="mx-md-4 mx-2 h4 text-dark linkhover" href="#contact">Contact</a>
+          </ul>
         </div>
         <a href={resume} target={'_blank'} className="d-md-block d-none resume__btn btn btn-primary">Resume</a>
       </div>
